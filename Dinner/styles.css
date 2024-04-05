@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+}
+#imageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.imageItem{
+    background-color: aqua;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url('DSC01951.JPG');
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+}
+/* 
+.imageItem1{
+    background-color: aqua;
+    border: 1px solid black;
+    background-image: url('DSC01951.JPG');
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+} */
